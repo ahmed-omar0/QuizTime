@@ -1,0 +1,46 @@
+section.welcome-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(42, 35, 35);
+    padding: 10px 0;
+    border-radius: 10px;
+    transform: translate(0,50px);
+    transition: transform .5s ease-in-out;
+    color: rgb(212, 211, 209);
+    .modal{
+        width: 100%;
+        text-align: center;
+        .modal-head{
+            .modal-title{
+                font: normal small-caps 500 25px/ 25px "Times New Roman";
+            }
+            p{
+                font: normal normal 400 20px/ 25px "Times New Roman";
+            }
+        }
+        .modal-body{
+            input{
+                margin: 5px 0;
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                padding: 5px;
+            }
+        }
+        .modal-footer{
+            .next{
+                font-size: 20px;
+                font-weight: 400;
+                padding: 3px;
+                background-color: rgba(0, 0, 0, 0.712);
+                transition: background-color .5s linear;
+                &:hover{
+                    background-color: rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+}
+section.fade{
+    transform:translate(0, -800px) ;
+}

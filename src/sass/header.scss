@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    background: rgb(32, 31, 31);
+    text-align: center;
+    padding: 20px;
+    ul{
+        width: 50%;
+        margin: auto;
+        li{
+            font: normal small-caps 400 35px/ 20px "Times New Roman";
+            color:rgb(255, 255, 255);
+            list-style-type: none;
+        }
+    }
+}

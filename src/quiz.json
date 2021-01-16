@@ -1,0 +1,32 @@
+{
+    "questions":
+    [
+        "HTML is a shortcut for",
+        "CSS is a shortcut for",
+        "JS is a shortcut for",
+        "ECMA  is a shortcut for",
+        "SASS is a shortcut for",
+        "How can you use console.log",
+        "How can you use console.log"
+    ],
+    "answers":
+    {
+    "answer1" : ["Hyper Text Markup Language", "Cascading Style Sheets", "Java Script"],
+    "answer2": ["Hyper Text Markup Language", "Java Script","Cascading Style Sheets"],
+    "answer3": ["Cascading Style Sheets", "Java Script","Hyper Text Markup Language"],
+    "answer4": ["Hyper Text Markup Language","European Computer Manufacturers Association", "Java Script"],
+    "answer5": ["Hyper Text Markup Language","European Computer Manufacturers Association", " Syntactically Awesome Stylesheet"],
+    "answer6": ["Show thing in the DOM","Test the code", " none of those"],
+    "answer7": ["Show thing in the DOM","Test the code", " none of those"]
+    },
+    "correctAnswers": 
+    [
+        "Hyper Text Markup Language",
+        "Cascading Style Sheets", 
+        "Java Script",
+        "European Computer Manufacturers Association",
+        " Syntactically Awesome Stylesheet",
+        "Test the code",
+        "Test the code"
+    ]
+}
