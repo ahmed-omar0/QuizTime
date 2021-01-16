@@ -48,14 +48,12 @@ class Quiz extends Component {
                     correctAnswers: correctAnswers[correctAnswerNum]
                 })
                 answerNum += 1
-                console.log(correctAnswerNum + this.state.correctAnswers)
             }else{
                 correctAnswerNum +=1
                 this.setState({
                     correctAnswers: correctAnswers[correctAnswerNum]
                 })
                 answerNum += 1
-                console.log(correctAnswerNum + this.state.correctAnswers)
             }
             this.setState({
                 questionNum: this.state.questionNum + 1,
